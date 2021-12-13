@@ -14,14 +14,14 @@ emailList.push("test349@gmail.com"); // email inserite nella lista tramite push
 const email = prompt("Scrivi il tuo indirizzo email"); // Richiesta inserimento email
 let emailCheck = false;
 
-for (let i = 0; i < emailList.length; i++) {
+for (let i = 0; i < emailList.length; i++) { //ciclo for per valutare se l'email è presente o meno nella lista.
     if(email == emailList[i]) {
         emailCheck = true;
     }
 }
 
-if(emailCheck){
-    console.log("email presente nella lista. Puoi accedere!");
+if(emailCheck){ // messaggi da mostrare se l'email è presente o non è presente nella lista
+    container.innerHTML = '<div class="box email-ok">' + "email presente nella lista. Puoi accedere!" + '</div>';
 }else{
-    console.log("email non presente nella lista. Accesso negato!");
+    container.innerHTML = '<div class="box email-non-presente">' + "email non presente nella lista. Accesso negato!" + '</div>';
 }
