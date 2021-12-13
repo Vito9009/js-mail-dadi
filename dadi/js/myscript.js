@@ -1,8 +1,8 @@
-const humanPlayer = document.querySelector("superman");
-const aIPlayer = document.querySelector("computer");
-
 const humanNumber = Math.floor(Math.random() * 6 + 1) + Math.floor(Math.random() * 6 + 1);
 const computerNumber = Math.floor(Math.random() * 6 + 1) + Math.floor(Math.random() * 6 + 1);
+
+console.log(humanNumber);
+console.log(computerNumber);
 
 
 if(humanNumber > computerNumber){
