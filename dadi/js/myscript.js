@@ -5,8 +5,8 @@ const computerNumber = Math.floor(Math.random() * 6 + 1) + Math.floor(Math.rando
 
 // console.log per mostrare i numeri solo in console
 
-console.log(humanNumber);
-console.log(computerNumber);
+console.log("superman:" + " " + humanNumber);
+console.log("computer:" + " " + computerNumber);
 
 // messaggi da mostrare in caso di vittoria / sconfitta o pareggio
 
