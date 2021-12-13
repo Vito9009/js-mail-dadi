@@ -17,3 +17,13 @@ if(humanNumber > computerNumber){
 }else {
     container.innerHTML = '<div class="box draw">Questa partita termina con un pareggio. Volete sapere chi vincerà? Continuate a giocare!</div>';
 }
+
+/*
+funzione per restituire un numero compreso tra min e max (inclusi)
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+ }
+
+ https://www.w3schools.com/js/js_random.asp
+*/
